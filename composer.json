@@ -1,0 +1,15 @@
+{
+    "name": "withflair/theme-frontend-vanilla",
+    "description": "N/A",
+    "type": "magento2-theme",
+    "version": "0.1.0",
+    "license": "OSL-3.0",
+    "require": {
+        "magento/theme-frontend-blank": "^100.3.4"
+    },
+    "autoload": {
+        "files": [
+          "registration.php"
+         ]
+    }
+}
