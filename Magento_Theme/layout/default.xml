@@ -9,5 +9,20 @@
                 <argument name="logo_width" xsi:type="number">64</argument>
             </arguments>
         </referenceBlock>
+
+        <referenceBlock name="catalog.topnav">
+            <arguments>
+                <argument name="jsLayout" xsi:type="array">
+                    <item name="menu" xsi:type="array">
+                        <item name="responsive" xsi:type="boolean">true</item>
+                        <item name="expanded" xsi:type="boolean">true</item>
+                        <item name="position" xsi:type="array">
+                            <item name="my" xsi:type="string">right top</item>
+                            <item name="at" xsi:type="string">left+50 top</item>
+                        </item>
+                    </item>
+                </argument>
+            </arguments>
+        </referenceBlock>
     </body>
 </page>
